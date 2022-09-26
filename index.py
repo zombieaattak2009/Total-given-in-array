@@ -1,13 +1,14 @@
 
-def search(list, platform):
+def search(list, number):
     for i in range(len(list)):
-        if list[i] == platform:
+        if list[i] == number:
             return True
     return False
 
 def check(list, sum):
     for i in range(len(list)):
         if list[i] == sum:
+            print(list[i])
             return True
     return False
 
@@ -20,7 +21,6 @@ b = a[0]+a[1]+a[2]
 c = total-b
 
 if check(a, total):
-    print("Yes")
     exit()
 else:
     None
