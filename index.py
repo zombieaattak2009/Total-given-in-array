@@ -20,6 +20,9 @@ a = list(range(1,n))
 b = a[0]+a[1]+a[2]
 c = total-b
 
+print(a[0],"+",a[1],"+",a[2])
+print(total,"-",b)
+
 if check(a, total):
     exit()
 else:
@@ -29,6 +32,7 @@ else:
 if search(a, c):
     print("True")
     answer=b+c
+    print(b,"+",c)
     print(answer)
 else: 
     print("false")
