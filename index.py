@@ -22,13 +22,13 @@ c = total-b
 
 
 if check(a, total):
+    print("Found in array (No Calculations Done)")
     exit()
 else:
     None
 
 
 if search(a, c):
-    print("True")
     answer=b+c
     print(a[0],"+",a[1],"+",a[2])
     print(total,"-",b)
